@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../FreelancePlatform.Domain/FreelancePlatform.Domain.csproj" Id="0d6ed804-a416-49c4-accb-13bbe167055c" />
+  <Project Path="../FreelancePlatform.ValueObjects/FreelancePlatform.ValueObjects.csproj" Id="6de5af48-4204-4348-906c-7922e0ac9a30" />
+  <Project Path="FreelancePlatform.ConsoleDemo.csproj">
+    <BuildDependency Project="../FreelancePlatform.Domain/FreelancePlatform.Domain.csproj" />
+  </Project>
+</Solution>
